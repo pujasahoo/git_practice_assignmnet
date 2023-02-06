@@ -1,0 +1,18 @@
+let str="nrupul";
+let flag=false;
+
+for(let i=0; i<str.length/2;i++)
+{
+if(str[i]!==str[str.length-1-i])
+{
+flag=true;
+break;
+}}
+if(flag=true)
+{
+console.log("It is a palindrome number");
+}
+else
+{
+console.log("It is not a palindrome number");
+}

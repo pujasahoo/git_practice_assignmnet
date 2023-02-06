@@ -1,0 +1,19 @@
+let number=17;
+
+let fac=0;
+
+for(let i=1; i<=number; i++)
+{
+if(number%i==0)
+{
+factor++;
+}
+}
+if(factor==2)
+{
+console.log("It is a prime number");
+}
+else
+{
+console.log("It is not a prime number");
+}
